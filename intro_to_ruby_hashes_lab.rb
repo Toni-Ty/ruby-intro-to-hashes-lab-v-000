@@ -76,7 +76,7 @@ def monopoly_with_fourth_tier
 			:shortline=>{"mortgage_value"=>"$800"}
 		},
 		:rent_in_dollars=> {
-			one_piece_owned: 25,
+			one_piece_owned: 25, # an alternative to write this witout the hash rocket
 			:two_pieces_owned=>50,
 			:three_pieces_owned=>100,
 			:four_pieces_owned=>200}
